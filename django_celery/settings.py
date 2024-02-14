@@ -138,3 +138,15 @@ CELERY_RESULT_BACKEND='django-db'
 #celery beat
 
 CELERY_BEAT_SCHEDULER='django_celery_beat.schedulers:DatabaseScheduler'
+
+#SMTP 
+
+
+SENDER_EMAIL = 'parmanand.p@brimo.in'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'parmanandprajapati0012@gmail.com'
+EMAIL_HOST_PASSWORD ='nkzo jujj iaup cksc'
